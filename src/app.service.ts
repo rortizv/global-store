@@ -21,8 +21,4 @@ export class AppService {
   getProducts(): any {
     return this.products;
   }
-
-  getName(): string {
-    return 'iPhone 12';
-  }
 }
