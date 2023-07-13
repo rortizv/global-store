@@ -1,12 +1,11 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { Product } from 'src/interfaces/product.interface';
 import { CreateProductDto, UpdateProductDto } from 'src/dtos/products.dtos';
 
 import { v4 as uuidv4 } from 'uuid';
 
 @Injectable()
 export class ProductsService {
-  private products: Product[] = [
+  private products: CreateProductDto[] = [
     {
       id: '9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d',
       name: 'iPhone X',
