@@ -1,9 +1,8 @@
 export class Product {
-  id: number;
+  id: string;
   name: string;
   description: string;
   price: number;
   stock: number;
   image: string;
-  active: boolean;
 }

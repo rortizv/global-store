@@ -26,7 +26,7 @@ export class BrandsController {
   @Post()
   createBrand(@Body() payload: any) {
     return {
-      message: 'Create brand action',
+      message: 'Brand created',
       payload,
     };
   }

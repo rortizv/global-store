@@ -29,7 +29,7 @@ export class CategoriesController {
   @Post()
   createCategory(@Body() payload: any) {
     return {
-      message: 'Create category action',
+      message: 'Category created succesfully',
       payload,
     };
   }
